@@ -1,0 +1,7 @@
+optConfig:
+  optOutStrategy: true
+  # Uncomment and change the repo-name if you wish to remove a repo from allstar checks
+  # optOutRepos:
+  # - repo-name-one
+  # - repo-name-two
+action: log
