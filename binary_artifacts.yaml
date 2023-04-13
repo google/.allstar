@@ -1,9 +1,7 @@
-optConfig:
-  optOutStrategy: true
-  optOutArchivedRepos: true
-  # Add a repo-name if you wish to remove a repo from allstar checks
-  optOutRepos:
+optOutStrategy: true  # enable the opt-out feature
+optOutArchivedRepos: true  # exclude archived repositories from checks
+optOutRepos:  # list of repository names to exclude from checks
   - capsicum-linux
-action: issue
-ignoreFiles:
-- gradle-wrapper.jar
+action: issue  # specify that issues should be created for violations
+ignoreFiles:  # list of files to ignore during checks
+  - gradle-wrapper.jar
